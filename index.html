@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
+  <body id="pg-index" class="page-index body--home body--onboarding">
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src/components/footer/Footer.jsx"></script>
+    <div class="site-wrapper site-wrapper-home js-site-wrapper">
+      <div class="onboarding-ed js-onboarding-ed">
+        <div class="onboarding-ed__slide onboarding-ed__slide-1 js-onboarding-ed-slide js-onboarding-ed-slide-1">
+          ::before
+          <div class="onboarding-ed__content">
+            <h1 class="onboarding-ed__title js-onboarding-ed-balance-text" style>
+              "No guardamos tu información"
+              <br data-owner="balance-text">
+              "personal. Y nunca lo haremos."
+            </h1>
+            <p class="onboarding-ed_subtitle js-onboarding-ed-balance-text" style>
+              "Nuestra política de privacidad es simple: No colectamos"
+              <br data-owner="balance-text">
+              "o compartimos ninguna información personal tuya."
+            </p>
+            <div class="js-onboarding-ed-button-small-1">
+              <a class="btn onboarding-ed__button-small ddg-extension-hide">
+                Instalar DuckDuckGo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
