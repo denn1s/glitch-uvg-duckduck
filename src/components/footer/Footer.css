@@ -11,7 +11,7 @@
     height: 100%
 }
 
-.site-wrapper--home:before {
+.site-wrapper--home::before {
     display: none !important
 }
 
@@ -37,7 +37,7 @@
     height: 25%
 }
 
-.onboarding-ed__slide:before {
+.onboarding-ed__slide::before {
     content: '';
     height: 45%;
     display: inline-block;
