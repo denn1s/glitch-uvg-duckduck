@@ -1,7 +1,6 @@
 import './Buscador.css'
 import { useState } from 'react'
 import React from 'react'
-import MiBusqueda from '../../assets/search.svg' 
 
 
 const SabeMas = (sobre)=>{
