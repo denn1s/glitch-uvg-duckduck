@@ -1,0 +1,122 @@
+
+.imagen{
+    width: 200px;
+    height: 162px;
+    margin: auto;
+}
+.Logazo{
+    width: 100%;
+    height: 200px;
+
+}
+.linked{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.hello{
+    width: 100px;
+    height: 35px;
+   
+}
+
+.vacio{
+    width: 100px;
+    height: 35px;
+}
+.elemento {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .elemento.mostrar {
+    opacity: 1;
+  }
+
+
+
+
+.saberMas{
+    width: 130px;
+    height: 28px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 38%;
+    bottom: 62%;
+    left: 300px;
+    right: 0;
+
+    }
+
+.saberMas .pico{
+    background-color: rgb(113, 113, 113);
+    width: 8px;
+    margin: auto -2px;
+    height: 10px;
+    clip-path: polygon(100% 0, 0 50%, 100% 100%);
+}
+.saberMas .cuadradito{
+    background-color: rgb(113, 113, 113);
+    color: white;
+    border-radius: 7px;
+    width: 120px;
+    height: 28px;
+}
+.cuadradito .span{
+    margin-top: 15px;
+    height: 20px;
+}
+
+
+
+.contenedorBusca{
+    width: 680px;
+    background-color: rgb(60,60,60);
+    border-radius: 5px;
+    height: 47px;
+    display: grid;
+    position: relative;
+}
+
+.inputTosearch{
+    width: 585px;
+    height: 45px;
+    outline: none;
+    border: transparent;
+    font-size: 1.1em;
+    font-weight: normal;
+    font-family: "DDG_ProximaNova","DDG_ProximaNova_UI_0","DDG_ProximaNova_UI_1","DDG_ProximaNova_UI_2","DDG_ProximaNova_UI_3","DDG_ProximaNova_UI_4","DDG_ProximaNova_UI_5","DDG_ProximaNova_UI_6","Proxima Nova","Helvetica Neue","Helvetica","Segoe UI","Nimbus Sans L","Liberation Sans","Open Sans",FreeSans,Arial,sans-serif;
+    color: #eeeeee;
+    position: absolute;
+    left: 30px;
+}
+.searchButton{
+    height: 47px;
+    background-color: rgb(60,60,60);
+    width: 60px;
+    outline: none;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    bottom: 0px;
+    margin: 0px 0px;
+    color: rgb(133, 133, 133);
+    border-bottom-right-radius: 5px ;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 0px ;
+    border-bottom-left-radius: 0px;
+}
+
+
+.searchButton:hover{
+    background-color: rgb(89, 89, 89); 
+    color: white;
+    outline: none;
+    border: transparent;
+}
