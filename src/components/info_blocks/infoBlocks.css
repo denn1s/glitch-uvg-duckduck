@@ -1,0 +1,24 @@
+.info_Blocks {
+  height: 280px;
+  width: 250px;
+  padding: 65px;
+  margin: 15px;
+  display: inline-block;
+  vertical-align: top;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 1px 1px 4px #333;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  color: blue;
+  font-weight: 600;
+  text-decoration: none;
+}
