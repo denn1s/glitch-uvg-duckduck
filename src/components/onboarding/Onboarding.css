@@ -1,0 +1,36 @@
+:root {
+    --max-content-width: 590px;
+    --default-border-radius: 4px;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+button {
+    background: #336F56 !important;
+    color: white;
+    font-size: 14px;
+    padding: 12px 20px 10px
+}
+
+.Onboarding {
+    margin-top: 1000px;
+    margin-bottom: 400px;
+    height: 400px;
+    width: 1530px;
+    background-color: #58b792;
+    background-position: center;
+    text-align: center;
+    font-size: 20px;
+    line-height: 10px;
+    position: relative;
+}
